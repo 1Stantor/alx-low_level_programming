@@ -1,12 +1,13 @@
-#include <stdio.h> // Include the necessary header
+#include <stdio.h>
+/* Include the necessary header */
 
-// Define the positive_or_negative function
+/* Define the positive_or_negative function */
 void positive_or_negative(int n)
 {
-if (n > 0)
-printf("%d is positive\n", n);
-else if (n < 0)
-printf("%d is negative\n", n);
-else
-printf("%d is zero\n", n);
+    if (n > 0)
+        printf("%d is positive\n", n);
+    else if (n < 0)
+        printf("%d is negative\n", n);
+    else
+        printf("%d is zero\n", n);
 }
